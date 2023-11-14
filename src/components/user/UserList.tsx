@@ -1,5 +1,3 @@
 export function UserList() {
-    return (
-        <></>
-    );
+  return <></>;
 }

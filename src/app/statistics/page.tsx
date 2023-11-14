@@ -1,5 +1,3 @@
 export default function Page() {
-    return (
-        <div>statistics</div>
-    );
+  return <div>statistics</div>;
 }

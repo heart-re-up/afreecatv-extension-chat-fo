@@ -1,5 +1,3 @@
 export function PageTitle(props: { title: string }) {
-    return (
-        <h1>{props.title}</h1>
-    );
+  return <h1>{props.title}</h1>;
 }

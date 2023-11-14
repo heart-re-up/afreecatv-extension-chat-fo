@@ -1,7 +1,5 @@
-import {NavGames} from "@/components/nav/NavGames";
+import { NavGames } from '~/components/nav/NavGames';
 
 export default function Page() {
-    return (
-        <div></div>
-    );
+  return <div></div>;
 }

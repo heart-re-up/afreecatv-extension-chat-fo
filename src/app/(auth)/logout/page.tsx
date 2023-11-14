@@ -1,8 +1,5 @@
-import {Logout} from "@/app/(auth)/logout/Logout";
+import { Logout } from '~/app/(auth)/logout/Logout';
 
 export default function Page() {
-
-    return (
-        <Logout></Logout>
-    );
+  return <Logout></Logout>;
 }

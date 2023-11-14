@@ -1,7 +1,3 @@
 export function DefaultHeader() {
-    return (
-        <header>
-
-        </header>
-    );
+  return <header></header>;
 }

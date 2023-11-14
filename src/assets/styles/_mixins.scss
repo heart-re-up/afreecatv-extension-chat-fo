@@ -1,0 +1,36 @@
+@mixin hoverable {
+  transition: all;
+  transition-duration: 250ms;
+  &:hover{
+    //transform: scale(1.01) translateY(-2px);
+  }
+}
+
+@mixin hoverable-shadow{
+    box-shadow: 0 1px 4px $boxShadowColor;
+  &:hover{
+  box-shadow: 0 4px 32px $boxShadowColor;
+  }
+}
+
+@mixin clickable {
+  transition: all;
+  transition-duration: 250ms;
+  &:active{
+    transform: scale(0.98) translateY(4px);
+  }
+}
+
+@mixin clickable-shadow{
+  box-shadow: 0 4px 16px $boxShadowColor;
+  &:active{
+    box-shadow: 0 1px 4px $boxShadowColor;
+  }
+}
+
+@mixin text-shadow{
+  text-shadow: 0 4px 16px $boxShadowColor;
+  &:active{
+    text-shadow: 0 1px 4px $boxShadowColor;
+  }
+}
